@@ -37,7 +37,7 @@ export default function MBTIFunApp() {
 
   async function copyResult() {
     if (!selected) return;
-    const text = `${selected} — ${MBTI_DATA[selected].title}: ${MBTI_DATA[selected].desc}`;
+  
     try {
       await navigator.clipboard.writeText(text);
       setCopied(true);
