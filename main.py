@@ -57,7 +57,7 @@ export default function MBTIFunApp() {
         className="w-full max-w-4xl"
       >
         
-        <p className="text-center text-gray-700 mb-6">MBTI를 눌러서 당신의 캐릭터를 확인해보세요 — 그냥 놀기 좋게 만든 재미용 앱이에요.</p>
+        
       </motion.header>
 
       <main className="w-full max-w-4xl">
