@@ -98,7 +98,7 @@ export default function MBTIFunApp() {
                   </div>
                 </div>
                 <div className="mt-4 flex gap-3 justify-end">
-                  <Button onClick={() => { navigator.share ? navigator.share({ title: "나의 MBTI 캐릭터", text: `${selected} — ${MBTI_DATA[selected].title}`, url: window.location.href }) : alert('공유를 지원하지 않는 환경이에요.'); }}>🔗 공유</Button>
+            
                   <Button onClick={copyResult}>{copied ? "✅ 복사됨" : "📋 복사"}</Button>
                 </div>
               </CardContent>
