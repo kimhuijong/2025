@@ -109,13 +109,4 @@ export default function MBTIFunApp() {
                 <div className="text-center text-gray-700">MBTI를 선택하거나 <strong>랜덤</strong> 버튼을 눌러 결과를 확인해보세요!</div>
               </CardContent>
             </Card>
-          )}
-        </motion.div>
 
-        <footer className="mt-8 text-center text-gray-600 text-sm">
-          만든이: 당신의 멋진 앱 • 그냥 재미로 쓰세요 ✨
-        </footer>
-      </main>
-    </div>
-  );
-}
