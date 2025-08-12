@@ -92,7 +92,7 @@ export default function MBTIFunApp() {
                 <div className="flex items-center gap-6">
                   <div className="text-7xl">{MBTI_DATA[selected].emoji}</div>
                   <div>
-                    <h2 className="text-2xl font-bold text-gray-900">{selected} — {MBTI_DATA[selected].title}</h2>
+                    
                     <p className="text-gray-700 mt-2">{MBTI_DATA[selected].desc}</p>
                     <p className="text-sm text-gray-500 mt-3">Tip: 친구와 비교해보면 더 재밌어요 :)</p>
                   </div>
