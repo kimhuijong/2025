@@ -103,7 +103,7 @@ export default function MBTIFunApp() {
                 </div>
               </CardContent>
             </Card>
-          ) : (
+         
             <Card className="bg-white/80 shadow-md rounded-2xl p-6 w-full max-w-xl">
               <CardContent>
                 <div className="text-center text-gray-700">MBTI를 선택하거나 <strong>랜덤</strong> 버튼을 눌러 결과를 확인해보세요!</div>
