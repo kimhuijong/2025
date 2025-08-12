@@ -77,7 +77,7 @@ export default function MBTIFunApp() {
         <div className="flex justify-center gap-3 mb-6">
          
          
-          <Button onClick={copyResult} className="px-4">📋 결과 복사</Button>
+         
         </div>
 
         <motion.div
